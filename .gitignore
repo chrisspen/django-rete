@@ -1,4 +1,7 @@
 *.pyc
-/.project
-/.pydevproject
-/.settings
+.project
+.pydevproject
+.settings
+build
+dist
+MANIFEST
