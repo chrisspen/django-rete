@@ -44,13 +44,9 @@ Installation
 
 Install dependencies:
 
-::
-
     pip install django-uuidfield
 
 Install the package:
-
-::
 
     python setup.py build
     sudo python setup.py install
@@ -58,10 +54,12 @@ Install the package:
 In your Django project's settings.py, add the 'rete' and 'triple' apps to your
 INSTALLED_APPS list.
 
+You can run unittests with:
+
+    python setup.py tests
+    
 Usage
 -----
-
-::
 
     from rete.models import Rete, PNode
     from triple.models import T
