@@ -1,5 +1,5 @@
 =======================================================================
-django-rete - The RETE-UL algorithm implemented on top of Django's ORM.
+django-rete - A Django-ORM based RETE-UL implementation
 =======================================================================
 
 Overview
@@ -44,10 +44,14 @@ Installation
 
 Install dependencies:
 
+::
+    
     pip install django-uuidfield
 
 Install the package:
 
+::
+    
     python setup.py build
     sudo python setup.py install
 
@@ -56,11 +60,15 @@ INSTALLED_APPS list.
 
 You can run unittests with:
 
+::
+    
     python setup.py tests
     
 Usage
 -----
 
+::
+    
     from rete.models import Rete, PNode
     from triple.models import T
     
